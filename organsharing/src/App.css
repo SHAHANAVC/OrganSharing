@@ -1,0 +1,387 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Radio button in user registration */
+
+.radio-inline .form-check {
+  display: inline-block;
+  margin-right: 10px;
+}
+.userhome{
+  background: url('https://img.freepik.com/free-photo/doctor-suggesting-hospital-program-patient_53876-14806.jpg?w=740&t=st=1720000118~exp=1720000718~hmac=8d7790779157b0ca1b6fe1f968b11ddccaae38297fbbfdbf26e0722f69ec97ab')  no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  /* height: 130vh; */
+}
+.container .userdiv {
+  /* height: 90px; */
+  /* border:1px #282c34 solid ; */
+  /* background-color: #bdbabace; */
+  background-color: #f7ecece7;
+  color:#282c34;
+  border-radius: 5%;
+  
+}
+.body-container{
+  /* background-color: #CADCFC; */
+  /* background-color: #E7E8D1; */
+  /* background-color: #A1BE95 */
+  /* background-color: #20948B; */
+  /* background-color: #1a29af; */
+  /* background-color:  hsla(270, 77%, 29%, 0.705); */
+  /* background: url('https://shabiba.eu-central-1.linodeobjects.com/2021/03/1616432407-1616432407-m5eg8c3kggzc.jpg') no-repeat; */
+  /* filter: blur(0.3px); */
+  /* -webkit-filter: blur(8px); */
+  background-size: cover;
+}
+.body-container .registrationform{
+  background-color: rgb(253, 247, 247); /* Fallback color */
+  /* background-color: rgba(233, 224, 224, 0.4); */
+}
+.loginBackground{
+  /* background: url('https://media.spiritualresearchfoundation.org/wp-content/uploads/2023/11/05053840/409-A-450x272.jpg') no-repeat; */
+  background: url('https://shabiba.eu-central-1.linodeobjects.com/2021/03/1616432407-1616432407-m5eg8c3kggzc.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 120vh;
+}
+.loginBackground img{
+  /* position: fixed; */
+}
+.loginHeader {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 0;
+}
+.logincard .lcard .link {
+  color: black;
+}
+.logincard .lcard:hover{
+  /* margin-right: -.5rem; */
+  /* margin-top: 200px; */
+  /* margin-left:900px; */
+  /* margin-right: 0px; */
+  /* margin-top: 70%; */
+  /* background-color: hsla(0,0%,100%,0.8); */
+  /* background-color:  hsla(0, 0%, 100%, 0.363);; */
+  background-color: #1b0446;
+  color: #fff;
+}
+.logincard .lcard .link:hover{
+  color: #fff;
+}
+/* login user */
+.divform{
+  border: 1px solid black;
+}
+/* log out button */
+.logout-button {
+  position: relative;
+}
+
+.logout-button i {
+  display: inline-block;
+}
+
+.logout-button:hover i {
+  display: none;
+}
+
+.logout-button:hover .logout-text {
+  display: inline-block;
+  color: #0c0c0c;
+  
+}
+.logout-button:hover {
+  background-color: #f5d33e;
+  border: 1px dotted black;
+}
+
+.logout-text {
+  display: none;
+}
+
+.formbox{
+  /* box-shadow: 10px 10px 5px lightblue; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+  /*homepage  */
+  .homefirstdiv{
+    background-color: #365372;
+    height: 80vh;
+    
+  }
+  
+/* .homecontentdiv{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.homecontentdiv p{
+  text-indent: 70px; 
+} */
+
+/* .blink {
+  animation: blinker 1.6s linear infinite;
+} */
+.blink-success {
+  animation: blinker 1.6s linear infinite;
+  color: green;
+  font-size: larger;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.blink-warning {
+  animation: blinker 2s linear infinite;
+  color: orange;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* button hover */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #f8eded;
+  text-transform: uppercase;
+  font-size: 1rem;
+  /* letter-spacing: 0.15rem; */
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #094686; /* Replace with desired color */
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #0d0e0d; /* Replace with darkened color */
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+
+.button:hover {
+  color: #f0e5e5;
+}
+
+.button:hover::before {
+  width: 100%;
+}
+.danger:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #f80303; /* Replace with darkened color */
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.danger:hover::before{
+  width: 100%;
+}
+.assign:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #075007; /* Replace with darkened color */
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.assign:hover::before{
+  width: 100%;
+}
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.overlay-text {
+  position: absolute;
+  width: 50%;
+  top: 30%;
+  left: 5%;
+  color: rgb(0,5,50);
+  background-color: transparent;
+  /* padding: 20px; */
+  border-radius: 10px;
+  z-index: 10;
+  text-align: center;
+}
+
+.glow-on-hover {
+  width: 100%;
+  max-width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:active {
+  color: #000;
+}
+
+.glow-on-hover:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  z-index: -2;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+/* Content Section */
+.content-section {
+  text-align: center;
+  padding: 2rem;
+  width:50%;
+  /* margin-top: 30px;
+  margin-bottom: 40px; */
+  box-shadow: 20px 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .overlay-text {
+    width: 90%;
+    top: 10%;
+    left: 5%;
+  }
+
+  .content-section h2 {
+    font-size: 1.5rem;
+  }
+
+  /* .login-background .login-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
+}
+@media (max-width: 576px) {
+  .content-section h2 {
+    font-size: 1.2rem;
+  }
+  .content-section{
+    width: 100%;
+  }
+}
+  /* .login-background .login-cards {
+    margin: 0;
+  }
+} */
+ 
+
